@@ -22,14 +22,14 @@
   </properties>
 
   <dependencies>
-  	<dependency>
+      <dependency>
         <groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-test</artifactId>
-		<scope>test</scope>
+        <artifactId>spring-boot-starter-test</artifactId>
+        <scope>test</scope>
     </dependency>
     <dependency>
         <groupId>org.springframework.cloud</groupId>
-		<artifactId>spring-cloud-starter-eureka</artifactId>
+        <artifactId>spring-cloud-starter-eureka</artifactId>
     </dependency>
   
     <dependency>
@@ -43,12 +43,12 @@
   <dependencyManagement>
     <dependencies>
         <dependency>
-	    <groupId>org.springframework.cloud</groupId>
-	    <artifactId>spring-cloud-dependencies</artifactId>
-	    <version>Brixton.RELEASE</version>
-	    <type>pom</type>
-	    <scope>import</scope>
-	</dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-dependencies</artifactId>
+        <version>Brixton.RELEASE</version>
+        <type>pom</type>
+        <scope>import</scope>
+    </dependency>
     </dependencies>
   </dependencyManagement>
 </project>

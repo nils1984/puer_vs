@@ -1,18 +1,15 @@
-package com.puer.compute;
+package com.puer.confclt;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 /**
  * Hello world!
  *
  */
-
-@EnableDiscoveryClient
 @SpringBootApplication
-public class App {
+public class ConfClientApp {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(App.class).web(true).run(args);
+        new SpringApplicationBuilder(ConfClientApp.class).web(true).run(args);
     }
 }
